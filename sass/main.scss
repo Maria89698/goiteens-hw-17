@@ -1,0 +1,122 @@
+@import "./variables/variables";
+
+@import "./base/common";
+
+// Головна сторінка
+@import "./utils/utils";
+
+// Хедер
+@import "./components/header";
+
+// Сeкція герой
+@import "./components/hero";
+
+// Модальне вікно і бекдроп
+@import "./components/modal";
+
+// Форма модального вікна
+@import "./components/form";
+
+// Особливості
+@import "./utils/visually-hidden";
+@import "./components/features";
+
+// Чим ми займаємося
+@import "./components/what-we-do";
+
+// Наша команда
+@import "./components/our-team";
+
+// Постійні клієнти
+@import "./components/customers";
+
+// Футер
+@import "./components/footer/footer";
+
+// Приєднуйтесь
+@import "./components/footer/join";
+
+// Підпишіться на розсилку
+@import "./components/footer/send";
+
+// Портфоліо
+
+// Кнопки фільтру
+@import "./components/portfolio/filter";
+
+
+// Приклади в портфоліо
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+span {
+    color: #2196F3;
+}
+
+.contacts-list {
+    justify-content: flex-end;
+}
+
+button {
+    border: none;
+}
+
+
+.grey {
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.img_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.img_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.footer {
+    background-color: #2F303A;
+}
+
+.logo_white {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: white;
+}
+
+.address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+}
+
+.info {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+}

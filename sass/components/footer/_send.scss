@@ -1,0 +1,91 @@
+.footer-subscribe {
+    display: flex;
+    flex-direction: column;
+    margin-right: 400px;
+    width: 568px;
+    height: 90px;
+    
+}
+
+.footer-subscribe input {
+    color: rgba(255, 255, 255, 0.6);
+    
+}
+
+.subscribe {
+    display: flex;
+    justify-content: flex-start
+}
+
+.footer-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--thirdly-text-color);
+
+    width: 207px;
+}
+
+.footer-input {
+    width: 450px;
+    height: 50px;
+
+    border-radius: 4px;
+    background-color: var(--backgroud-color);
+    border-color: rgba(225, 255, 255, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    display: flex;
+
+    margin-right: 8px;
+
+    padding-top: 15px;
+    padding-bottom: 19px;
+    padding-left: 16px; 
+}
+
+input::placeholder {
+    left: 17px;
+}
+
+.footer-button {
+    width: 270px;
+    height: 50px;
+
+    border-radius: 4px;
+    border: none;
+    
+    color: var(--thirdly-text-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    padding-left: 31px;
+
+    &::after {
+        content: "";
+        background-image: url(../images/main/symbol-defs.svg#icon-send);
+        color: var(--thirdly-text-color);
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+    }
+}
+
+.send-icon {
+    margin-left: 12px;
+}

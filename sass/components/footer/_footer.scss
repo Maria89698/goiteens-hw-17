@@ -1,0 +1,37 @@
+.container {
+    @extend footer;
+    display: flex;
+}
+
+.contacts {
+    width: 231px;
+    height: 132px;
+    margin-right: 70px;
+}
+
+.networks {
+    width: 207px;
+    height: 80px;
+}
+
+.section.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    width: 1600px;
+}
+
+.footer .logo {
+    color: var(--thirdly-text-color);
+}
+
+address {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
+    color: var(--thirdly-text-color);
+    margin-top: 20px;
+
+}
+
