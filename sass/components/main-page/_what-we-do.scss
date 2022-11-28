@@ -1,26 +1,21 @@
 .jobs {
     display: flex;
-    justify-content: space-between;
 }
 
-.jobs-img {
-    display: block;
-    width: 370px;
-    height: 294px;
-}
-
-/* Labels */
+// Labels
 .jobs-item {
     position: relative;
 
-    
+    &:not(:last-child){
+        margin-right: 30px;
+    }
 }
 
 .jobs-backdrop {
     position: absolute;
     display: flex;
     justify-content: center;
-    /* margin: 0 auto; */
+    // margin: 0 auto;
     width: 370px;
     height: 70px;
     bottom: 0;

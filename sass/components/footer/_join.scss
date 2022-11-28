@@ -1,11 +1,8 @@
-.footer .contacts-list {
-    display: block;
-    margin-top: 9px;
-}
-
-.footer .contact-item:last-child {
-    margin-left: 0;
-    margin-top: 9px;
+.join {
+    .networks-link {
+        background-color: rgba(255, 255, 255, 0.1);
+        color: var(--thirdly-text-color); 
+    }
 }
 
 .footer p {
@@ -19,16 +16,14 @@
     margin-bottom: 20px;
 }
 
-.footer .networks-link {
-    background-color: rgba(255, 255, 255, 0.1);
-    color: var(--thirdly-text-color);
-}
 
-.footer .networks-link:hover,
-.footer .networks-link:focus {
+.networks-link:hover,
+.networks-link:focus {
+    @extend .footer;
     background-color: var(--accent-color);
 }
 
-.footer .networks-icon {
+.networks-icon {
+    @extend .footer;
     fill: currentColor;
 }

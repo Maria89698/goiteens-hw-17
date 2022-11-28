@@ -1,9 +1,11 @@
+@import "./variables/breackpoints";
 @import "./variables/variables";
-
 @import "./base/common";
 
 // Головна сторінка
+@import "./utils/visually-hidden";
 @import "./utils/utils";
+
 
 // Хедер
 @import "./components/header";
@@ -18,7 +20,6 @@
 @import "./components/form";
 
 // Особливості
-@import "./utils/visually-hidden";
 @import "./components/features";
 
 // Чим ми займаємося

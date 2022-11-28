@@ -1,7 +1,19 @@
 .section {
-    width: 1600px;
+    width: 100%;
     padding-top: 94px;
     padding-bottom: 94px;
+
+    @media screen and (min-width: $mobile) {
+        width: 480px;
+    }
+
+    @media screen and (min-width: $tablet) {
+        width: 748px;        
+    }
+
+    @media screen and (min-width: $desktop) {
+        width: 1200px;
+    }
 }
 
 .container {
