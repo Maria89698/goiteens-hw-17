@@ -1,6 +1,7 @@
 @import "./variables/breackpoints";
 @import "./variables/variables";
 @import "./base/common";
+@import "./variables/mixins";
 
 // Головна сторінка
 @import "./utils/visually-hidden";
@@ -11,25 +12,25 @@
 @import "./components/header";
 
 // Сeкція герой
-@import "./components/hero";
+@import "./components/main-page/hero/hero";
 
 // Модальне вікно і бекдроп
-@import "./components/modal";
+@import "./components/main-page/hero/modal";
 
 // Форма модального вікна
-@import "./components/form";
+@import "./components/main-page/hero/form";
 
 // Особливості
-@import "./components/features";
+@import "./components/main-page/features";
 
 // Чим ми займаємося
-@import "./components/what-we-do";
+@import "./components/main-page/what-we-do";
 
 // Наша команда
-@import "./components/our-team";
+@import "./components/main-page/our-team";
 
 // Постійні клієнти
-@import "./components/customers";
+@import "./components/main-page/customers";
 
 // Футер
 @import "./components/footer/footer";
@@ -38,7 +39,7 @@
 @import "./components/footer/join";
 
 // Підпишіться на розсилку
-@import "./components/footer/send";
+@import "./components/footer/footer-form";
 
 // Портфоліо
 
